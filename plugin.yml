@@ -1,0 +1,21 @@
+name: DisableCommand
+main: cn.example.DisableCommand
+version: 1.0
+api-version: '1.21'
+load: STARTUP
+description: 禁用Minecraft原版或插件的命令
+commands:
+  disablecommand:
+    description: DisableCommand插件主命令
+    aliases: [dc]
+    permission: disablecommand.use
+permissions:
+  disablecommand.use:
+    description: 允许使用DisableCommand插件的命令
+    default: true
+  disablecommand.reload:
+    description: 允许重新加载DisableCommand配置
+    default: op
+  disablecommand.bypass:
+    description: 允许绕过禁用的命令
+    default: op

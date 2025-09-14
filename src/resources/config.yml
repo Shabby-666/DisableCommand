@@ -1,0 +1,9 @@
+# DisableCommand配置文件
+# 在此处添加你想要禁用的命令，无需包含斜杠
+# 示例：disabled-commands: ["gamemode", "tp", "give"]
+disabled-commands:
+  -
+
+# 当玩家尝试执行禁用命令时显示的消息
+# 使用 & 符号作为颜色代码前缀，例如："&eDisable&cCommand &a>> &4这个命令已被禁用！"
+disabled-message: "&eDisable&cCommand &a>> &4这个命令已被禁用！"

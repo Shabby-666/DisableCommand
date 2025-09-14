@@ -106,10 +106,10 @@ Note: Only players with the `disablecommand.reload` permission can use this comm
 ## 常见问题 / Frequently Asked Questions
 
 ### Q: 如何禁用带有参数的命令？
-A: 目前插件只禁用命令本身，不考虑参数。如果你禁用了`tp`命令，那么所有以`/tp`开头的命令都会被禁用。
+A: 目前插件只禁用命令本身，不考虑参数。如果你禁用了tp命令，那么所有以/tp开头的命令都会被禁用。
 
 ### Q: How to disable commands with parameters?
-A: Currently, the plugin only disables the command itself, not considering parameters. If you disable the `tp` command, all commands starting with `/tp` will be disabled.
+A: Currently, the plugin only disables the command itself, not considering parameters. If you disable the tp command, all commands starting with /tp will be disabled.
 
 ### Q: 如何禁用其他插件的命令？
 A: 与禁用原版命令的方法相同，只需在配置文件中添加插件命令的名称即可。
